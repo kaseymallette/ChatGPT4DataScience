@@ -36,6 +36,7 @@ Close and reopen any command prompt or terminal windows to apply the changes.
 To verify that Anaconda has been added to your PATH, open a new command prompt or terminal window and run the following command:
 
 ```conda --version```
+
 If Anaconda is properly configured, the version number should be displayed in the output.
 
 Note that adding Anaconda to your PATH environment variable allows you to run the conda command from any directory in the command prompt or terminal. This can be useful when working with multiple environments and packages in Anaconda.
@@ -54,6 +55,7 @@ Navigate to the directory where the conda.exe file is located. This file is typi
 Once you have navigated to the Scripts directory, you can initialize conda.exe by running the following command:
 
 ```conda.exe init cmd.exe```
+
 Press Enter to run the command. This will configure your Command Prompt to recognize the conda command.
 
 Close and reopen the Command Prompt to apply the changes.
@@ -77,6 +79,7 @@ Navigate to the directory where the conda.exe file is located. This file is typi
 Once you have navigated to the Scripts directory, you can initialize conda.exe by running the following command:
 
 ```conda.exe init powershell```
+
 Press Enter to run the command. This will configure your PowerShell to recognize the conda command.
 
 Close and reopen the PowerShell to apply the changes.
@@ -84,6 +87,7 @@ Close and reopen the PowerShell to apply the changes.
 To test that conda.exe is working properly, type the following command to display the conda version:
 
 ```conda --version```
+
 If conda.exe is installed and initialized properly, the version number should be displayed in the PowerShell.
 
 
@@ -98,11 +102,13 @@ Open Windows PowerShell as an administrator. You can do this by right-clicking t
 Check the current execution policy by running the following command:
 
 ```Get-ExecutionPolicy```
+
 This will display the current execution policy for PowerShell.
 
 If the current execution policy is "Restricted", you can change it by running the following command:
 
 ```Set-ExecutionPolicy Unrestricted```
+
 This will allow all scripts to run in PowerShell. If you prefer, you can use a more restrictive execution policy, such as "RemoteSigned" or "AllSigned".
 
 PowerShell will prompt you to confirm that you want to change the execution policy. Type "Y" and press Enter to confirm.
