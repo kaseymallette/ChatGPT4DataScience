@@ -1,7 +1,7 @@
 ## Prompt 
 How do I create a new Github repository from my terminal?
 
-## ChatGPT Response
+## Response
 You can create a new GitHub repository from your terminal by following these steps:
 
 Open your terminal and navigate to the directory where you want to create the new repository.
